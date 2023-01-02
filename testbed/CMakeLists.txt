@@ -1,8 +1,8 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
-project(testgamework C)
+project(testgamework CXX)
 
-add_executable(testgamework test.c)
+add_executable(testgamework test.cpp)
 
 target_include_directories(testgamework PRIVATE "../")
 target_include_directories(testgamework PRIVATE "../deps/glfw/include")
